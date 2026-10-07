@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Slower, resonant pace for parasympathetic 4-7-8 breathing animation */
+.breathing-orb {
+  transition: transform 2.5s cubic-bezier(0.4, 0, 0.2, 1), 
+              background-color 2.5s ease-in-out, 
+              box-shadow 2.5s ease-in-out,
+              border-color 2.5s ease-in-out;
+}
+
+.breathing-ring-progress {
+  transition: stroke-dashoffset 0.8s linear, stroke 1.5s ease;
+}
